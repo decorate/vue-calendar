@@ -1,9 +1,9 @@
 {
-  "name": "@team-decorate/example",
+  "name": "@team-decorate/vue-calendar",
   "version": "1.0.1",
   "description": "",
-  "main": "dist/example.common.js",
-  "unpkg": "dist/example.umd.js",
+  "main": "dist/vue-calendar.common.js",
+  "unpkg": "dist/vue-calendar.umd.js",
   "files": [
     "src",
     "dist"
