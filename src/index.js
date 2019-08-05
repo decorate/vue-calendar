@@ -1,8 +1,8 @@
 import '@babel/polyfill'
 
-import EX from './components/Example'
+import WeeklyCalendar from './components/WeeklyCalendar'
 
 export {
-    EX,
-    EX as default
+    WeeklyCalendar,
+    WeeklyCalendar as default
 }

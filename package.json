@@ -16,10 +16,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/decorate/vue-searchable.git"
+    "url": "git+https://github.com/decorate/vue-calendar.git"
   },
   "keywords": [
-    "example"
+    "vue", "calendar", "moment.js"
   ],
   "author": "",
   "license": "MIT",
@@ -47,5 +47,10 @@
   ],
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "moment": "^2.24.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0"
   }
 }
