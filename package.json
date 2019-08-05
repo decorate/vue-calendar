@@ -1,6 +1,6 @@
 {
   "name": "@team-decorate/example",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/example.common.js",
   "unpkg": "dist/example.umd.js",
@@ -19,7 +19,9 @@
     "url": "git+https://github.com/decorate/vue-calendar.git"
   },
   "keywords": [
-    "vue", "calendar", "moment.js"
+    "vue",
+    "calendar",
+    "moment.js"
   ],
   "author": "",
   "license": "MIT",
