@@ -8,4 +8,7 @@ module.exports = {
     //         axios: true
     //     })
     // }
+    devServer: {
+        disableHostCheck: true
+    }
 }

@@ -1,6 +1,13 @@
 <template>
   <div id="app">
+      <h2>calendar</h2>
       <WeeklyCalendar ref="calendar"></WeeklyCalendar>
+      <br>
+      <br>
+      <h2>calendarPicker</h2>
+      <WeeklyCalendar calendar-picker @check="check" :styles="style"></WeeklyCalendar>
+
+      selected:{{selected}}
   </div>
 </template>
 
@@ -8,6 +15,15 @@
     import WeeklyCalendar from './components/WeeklyCalendar'
 
     export default {
+
+        data() {
+            return {
+                selected: [],
+                style: {
+                    '--activeColor': "blue"
+                }
+            }
+        },
         components: {
             WeeklyCalendar
         },
@@ -19,7 +35,10 @@
         },
 
         methods: {
-
+            check(value, selected) {
+                console.log(value)
+                this.selected = selected.slice()
+            }
         }
     }
 

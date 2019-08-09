@@ -15,6 +15,7 @@ export default class CalendarService {
 
 
         this.data = data
+        this.date = ''
         this.create()
     }
 
@@ -27,6 +28,8 @@ export default class CalendarService {
         this.day = ob.get('date')
         this.month = ob.format('MMM')
         this.dayOfWeek = ob.format('dd')
+        this.date = ob.format('YYYY-MM-DD')
+
     }
 
     get today() {
