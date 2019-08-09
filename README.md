@@ -5,7 +5,7 @@
 
 With npm:
 
-    npm install @team-decorate/vue-calendar
+    npm install @team-decorate/vue-weekly-calendar
     
     
 ### Usage
