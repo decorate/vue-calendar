@@ -1,22 +1,22 @@
 {
-  "name": "@team-decorate/vue-calendar",
+  "name": "@team-decorate/vue-weekly-calendar",
   "version": "1.0.3",
   "description": "",
-  "main": "dist/vue-calendar.common.js",
-  "unpkg": "dist/vue-calendar.umd.js",
+  "main": "dist/vue-weekly-calendar.common.js",
+  "unpkg": "dist/vue-weekly-calendar.umd.js",
   "files": [
     "src",
     "dist"
   ],
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build src/index.js --target lib --name example",
+    "build": "vue-cli-service build src/index.js --target lib --name vue-weekly-calendar",
     "test": "vue-cli-service test:unit tests/",
     "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/decorate/vue-calendar.git"
+    "url": "git+https://github.com/decorate/vue-weekly-calendar.git"
   },
   "keywords": [
     "vue",

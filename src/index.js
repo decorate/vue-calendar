@@ -1,8 +1,8 @@
 import '@babel/polyfill'
 
-import WeeklyCalendar from './components/WeeklyCalendar'
+import VueWeeklyCalendar from './components/VueWeeklyCalendar'
 
 export {
-    WeeklyCalendar,
-    WeeklyCalendar as default
+    VueWeeklyCalendar,
+    VueWeeklyCalendar as default
 }

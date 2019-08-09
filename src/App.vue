@@ -12,7 +12,7 @@
 </template>
 
 <script>
-    import WeeklyCalendar from './components/WeeklyCalendar'
+    import WeeklyCalendar from './components/VueWeeklyCalendar'
 
     export default {
 
