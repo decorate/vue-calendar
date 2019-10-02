@@ -1,6 +1,6 @@
 {
   "name": "@team-decorate/vue-weekly-calendar",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "",
   "main": "dist/vue-weekly-calendar.common.js",
   "unpkg": "dist/vue-weekly-calendar.umd.js",
