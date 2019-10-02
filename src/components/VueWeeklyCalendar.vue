@@ -97,9 +97,13 @@
         methods: {
             next() {
                 this.showWeekNumber++
+
+                this.$emit('next', this.showWeekNumber)
             },
             pre() {
                 this.showWeekNumber--
+
+                this.$emit('prev', this.showWeekNumber)
             },
             getWeekly() {
                 return this.weekly

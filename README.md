@@ -87,3 +87,9 @@ calendar picker
 |--activeColor|'red'|checkした時のbackground-color|
 |--activeTextColor|'#fff'|checkした時のcolor|
 |--textColor|'#000'|default color|
+
+### events
+|name|default|description|
+|:---|:---|:---|
+|next| |nextボタンが押された時|
+|prev| |prevボタンが押された時|

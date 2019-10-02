@@ -1,7 +1,7 @@
 <template>
   <div id="app">
       <h2>calendar</h2>
-      <WeeklyCalendar ref="calendar"></WeeklyCalendar>
+      <WeeklyCalendar ref="calendar" @next="next" @prev="prev" :show-week="10"></WeeklyCalendar>
       <br>
       <br>
       <h2>calendarPicker</h2>
@@ -38,6 +38,14 @@
             check(value, selected) {
                 console.log(value)
                 this.selected = selected.slice()
+            },
+
+            next(number) {
+                console.log('ok next', number)
+            },
+
+            prev(number) {
+                console.log('ok prev', number)
             }
         }
     }
