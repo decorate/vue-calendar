@@ -12,7 +12,7 @@ With npm:
 calendar
 
 ```html
-<WeeklyCalendar ref="calendar"></WeeklyCalendar>
+<WeeklyCalendar ref="calendar" @next="next" @prev="prev"></WeeklyCalendar>
 
 <script>
     import WeeklyCalendar from '@team-decorate/vue-calendar'
@@ -23,6 +23,16 @@ calendar
             const w = this.$refs.calendar.getWeekly()
             console.log(w)
             w[0][0].active = true
+        },
+        
+        methods: {
+            next(number) {
+                console.log(number)
+            },
+            
+            prev(number) {
+                console.log(number)
+            }
         },
         
         components: {
